@@ -1,0 +1,23 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+h1 {
+  font-size: x-large;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a {
+  font-size: medium;
+  min-width: 6rem;
+  padding: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

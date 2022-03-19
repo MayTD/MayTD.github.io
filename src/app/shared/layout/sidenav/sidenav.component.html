@@ -1,0 +1,28 @@
+<mat-sidenav-container fxFlexFill class="container" fxShow="true">
+  <mat-sidenav
+    class="inner-container"
+    color="primary"
+    fxLayout="column"
+    mode="over"
+    position="end"
+    [opened]="isDrawerOpen"
+    (closed)="(toggleDrawer)"
+  >
+    <nav fxLayout="column">
+      <div fxLayout="row">
+        <a (click)="toggleDrawer()" routerLink="/"><h2>May Do</h2></a>
+        <span class="spacer"></span>
+        <button mat-icon-button (click)="toggleDrawer()">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+      <mat-divider></mat-divider>
+      <a mat-button (click)="toggleDrawer()" routerLink="/">Home</a>
+      <a mat-button (click)="toggleDrawer()" routerLink="/about">About</a>
+      <a mat-button (click)="toggleDrawer()" routerLink="/resume">Resume</a>
+    </nav>
+  </mat-sidenav>
+  <mat-sidenav-content fxFlexFill>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>

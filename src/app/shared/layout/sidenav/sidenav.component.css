@@ -1,0 +1,19 @@
+a {
+  padding: 0.5rem;
+  text-align: left;
+  text-decoration: none;
+  outline: none;
+}
+
+h2 {
+  color: black;
+}
+
+.inner-container {
+  min-width: 50vw;
+  padding: 1rem 1.5rem;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

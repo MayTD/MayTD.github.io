@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <a routerLink="/"><h1>May Do</h1></a>
+  <span class="spacer"></span>
+  <div fxShow="true" fxHide.gt-xs="true">
+    <button mat-icon-button (click)="toggleDrawer()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <nav fxShow="true" fxHide.lt-sm="true">
+    <a routerLink="/">Home</a>
+    <a routerLink="/about">About</a>
+    <a routerLink="/resume">Resume</a>
+  </nav></mat-toolbar
+>
