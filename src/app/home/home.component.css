@@ -1,0 +1,28 @@
+.titlecard {
+  min-height: 50vh;
+  padding: 6rem 2rem;
+  background-color: var(--primary-color);
+}
+
+h1,
+h3 {
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+button:nth-child(2) {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+img {
+  max-height: 500px;
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 3rem;
+}
