@@ -1,0 +1,14 @@
+.footer {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.soc-icon {
+  font-size: 1.7rem;
+}

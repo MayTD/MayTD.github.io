@@ -12,6 +12,7 @@ import { MaterialModule } from './shared/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SidenavComponent } from './shared/layout/sidenav/sidenav.component';
 import { CardComponent } from './home/card/card.component';
+import { FooterComponent } from './shared/layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { CardComponent } from './home/card/card.component';
     ResumeComponent,
     HeaderComponent,
     SidenavComponent,
-
+    FooterComponent,
     CardComponent,
   ],
   imports: [
