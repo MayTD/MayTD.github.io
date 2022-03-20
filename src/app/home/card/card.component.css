@@ -1,0 +1,23 @@
+.card {
+  overflow: hidden;
+  height: 25rem;
+  padding: 2rem;
+  max-width: 30rem;
+}
+
+.card img {
+  max-height: 25rem;
+  height: auto;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.empty-card {
+  height: 100%;
+  padding: 2rem;
+}
+
+a {
+  color: white;
+  background-color: var(--secondary-color);
+}

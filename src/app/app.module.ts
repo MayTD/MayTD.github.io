@@ -11,6 +11,7 @@ import { HeaderComponent } from './shared/layout/header/header.component';
 import { MaterialModule } from './shared/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SidenavComponent } from './shared/layout/sidenav/sidenav.component';
+import { CardComponent } from './home/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,8 @@ import { SidenavComponent } from './shared/layout/sidenav/sidenav.component';
     ResumeComponent,
     HeaderComponent,
     SidenavComponent,
+
+    CardComponent,
   ],
   imports: [
     BrowserModule,

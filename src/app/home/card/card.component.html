@@ -1,0 +1,12 @@
+<mat-card [ngClass]="card.src ? 'card' : 'empty-card'">
+  <mat-card-title>{{ card.title }}</mat-card-title>
+  <mat-card-content>
+    <p>
+      {{ card.description }}
+    </p>
+  </mat-card-content>
+  <a *ngIf="card?.buttonText" mat-raised-button [href]="card?.buttonHref">
+    {{ card?.buttonText }}</a
+  >
+  <img *ngIf="card?.src" [src]="card?.src" [alt]="card?.alt" />
+</mat-card>

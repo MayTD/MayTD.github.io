@@ -1,7 +1,11 @@
 .titlecard {
   min-height: 50vh;
-  padding: 6rem 2rem;
+  padding: 3rem 2rem 6rem;
   background-color: var(--primary-color);
+}
+
+.showcase {
+  padding: 4rem 2rem;
 }
 
 h1,
@@ -14,12 +18,12 @@ h1 {
   font-weight: bolder;
 }
 
-button:nth-child(2) {
+a:not(:first-child) {
   color: white;
   background-color: var(--secondary-color);
 }
 
-img {
+.titlecard img {
   max-height: 500px;
   height: auto;
   width: 100%;
