@@ -1,1 +1,41 @@
-<p>resume works!</p>
+<div
+  fxLayout="column"
+  fxLayoutAlign="center start"
+  fxLayoutGap="2rem"
+  class="container"
+>
+  <div
+    fxLayout="row"
+    fxLayout.lt-sm="column"
+    fxLayoutAlign="space-between start"
+    fxLayoutGap=".5rem"
+    fxFill
+  >
+    <h1>Summary of my work</h1>
+    <a mat-raised-button href="../../assets/May Do Resume.pdf" download>
+      Download CV</a
+    >
+  </div>
+  <div>
+    <h2>Skills</h2>
+    <app-list *ngFor="let skill of skillDetails" [list]="skill"> </app-list>
+  </div>
+  <div>
+    <h2>Experience</h2>
+    <app-list *ngFor="let exp of expDetails" [list]="exp"> </app-list>
+  </div>
+  <div>
+    <h2>Projects</h2>
+    <app-list *ngFor="let project of projDetails" [list]="project"> </app-list>
+  </div>
+
+  <div>
+    <h2>Education</h2>
+    <app-list *ngFor="let education of eduDetails" [list]="education">
+    </app-list>
+  </div>
+  <div>
+    <h2>Certifications</h2>
+    <app-list *ngFor="let cert of certDetails" [list]="cert"> </app-list>
+  </div>
+</div>
