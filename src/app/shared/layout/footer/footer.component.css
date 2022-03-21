@@ -9,6 +9,10 @@ a {
   color: white;
 }
 
+h1 {
+  margin-bottom: 0;
+}
+
 .soc-icon {
   font-size: 1.7rem;
 }

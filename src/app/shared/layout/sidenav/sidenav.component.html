@@ -9,11 +9,14 @@
     (closed)="(toggleDrawer)"
   >
     <nav fxLayout="column">
-      <div fxLayout="row">
+      <div fxLayout="row" fxLayoutAlign="space-between start">
         <a (click)="toggleDrawer()" routerLink="/"><h2>May Do</h2></a>
-        <span class="spacer"></span>
         <button mat-icon-button (click)="toggleDrawer()">
-          <mat-icon>close</mat-icon>
+          <mat-icon
+            fontSet="fa"
+            class="close-icon"
+            fontIcon="fa-xmark"
+          ></mat-icon>
         </button>
       </div>
       <mat-divider></mat-divider>
