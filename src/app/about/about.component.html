@@ -1,1 +1,92 @@
-<p>about works!</p>
+<div
+  fxLayout="column"
+  fxLayoutAlign="center center"
+  fxLayoutGap="4rem"
+  class="container"
+>
+  <div>
+    <h1>About Me</h1>
+    <p>
+      As a kid I gravitated towards Lego sets, drawing, anything that let me
+      create and build. My interest eventually led me to building mechanical
+      keyboards and 3D printing and through those hobbies, I've naturally found
+      an interest in coding. I then soon joined a coding boot camp and have been
+      a professional developer since I was 19 years old. To this day I still
+      continue to learn and build more projects from Lego to keyboards to apps!
+    </p>
+  </div>
+  <div fxLayout="column" fxLayoutGap="2rem">
+    <div>
+      <h2>Get to know my coding buddies</h2>
+      <p>
+        Their first job is to look cute. Their second is rubber duck debugging.
+      </p>
+    </div>
+    <div
+      fxLayout="row"
+      fxLayout.lt-sm="column"
+      fxLayoutAlign="center center"
+      fxLayoutGap="4rem"
+    >
+      <img fxFlexOrder.xs="2" src="../../assets/img/momo.png" />
+      <div fxLayout="column">
+        <h3>Momo</h3>
+        <p>
+          Momo is a lazy chihuahua that definitely thinks he's not as tiny as he
+          really is. His daily habits include sleeping, eating, and more
+          sleeping. He refuses to walk unless treats are involved.
+        </p>
+      </div>
+    </div>
+    <div
+      fxLayout="row"
+      fxLayout.lt-sm="column"
+      fxLayoutAlign="center center"
+      fxLayoutGap="4rem"
+    >
+      <div fxLayout="column">
+        <h3>Mew</h3>
+        <p>
+          Mew is a sweet cat that always run for food. Her habits also includes
+          eating and sleeping all day but with the occasional sunbathing. Her
+          favorite toy is a laser pointer.
+        </p>
+      </div>
+      <img src="../../assets/img/mew.png" />
+    </div>
+  </div>
+  <div fxLayout="column" fxFlexFill>
+    <mat-card class="contact-card">
+      <h2>Contact Info</h2>
+      <mat-card-content>
+        <p>
+          If you got a burning question, project ideas, or just want to talk
+          about mechanical keyboards, lets connect.
+        </p>
+      </mat-card-content>
+      <mat-divider inset></mat-divider>
+      <mat-card-actions>
+        <div fxLayout="row" fxLayoutGap="1.5rem" fxLayoutAlign="start center">
+          <a mat-icon-button href="mailto: maytuyetdo@gmail.com">
+            <mat-icon
+              fontSet="fa"
+              class="soc-icon"
+              fontIcon="fa-envelope"
+            ></mat-icon>
+          </a>
+          <a mat-icon-button href="https://github.com/MayTD">
+            <mat-icon
+              fontSet="fa"
+              class="soc-icon"
+              fontIcon="fa-github"
+            ></mat-icon>
+          </a>
+          <a mat-icon-button href="https://www.linkedin.com/in/may-do/">
+            <mat-icon fontSet="fa" class="soc-icon" fontIcon="fa-linkedin">
+            </mat-icon>
+          </a>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

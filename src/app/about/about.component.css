@@ -1,0 +1,29 @@
+.container {
+  padding: 4rem 2rem;
+  font-size: medium;
+  max-width: 60rem;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+img {
+  max-height: 28rem;
+  width: 100%;
+}
+
+.soc-icon {
+  font-size: 1.7rem;
+}
