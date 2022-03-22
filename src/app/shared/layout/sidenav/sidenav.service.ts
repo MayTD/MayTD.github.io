@@ -22,6 +22,5 @@ export class SidenavService {
 
   toggleDrawer() {
     this.drawerOpenSubject.next(!this.isDrawerOpen);
-    console.log('toggle');
   }
 }
