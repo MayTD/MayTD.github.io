@@ -5,7 +5,7 @@
       {{ card.description }}
     </p>
   </mat-card-content>
-  <a *ngIf="card?.buttonText" mat-raised-button [href]="card?.buttonHref">
+  <a *ngIf="card?.buttonText" mat-raised-button [routerLink]="card?.buttonHref">
     {{ card?.buttonText }}</a
   >
   <img *ngIf="card?.src" [src]="card?.src" [alt]="card?.alt" />
