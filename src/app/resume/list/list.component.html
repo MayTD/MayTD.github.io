@@ -1,6 +1,6 @@
-<div fxLayout="column">
-  <div mat-line>{{ list.header }}</div>
-  <div mat-line class="subheader">{{ list.subheader }}</div>
+<div fxLayout="column" class={{sectionTitle}}>
+  <div mat-line *ngIf="list?.header">{{ list.header }}</div>
+  <div mat-line *ngIf="list?.subheader" class="subheader">{{ list.subheader }}</div>
   <ul *ngIf="list?.items">
     <li *ngFor="let item of list?.items">{{ item }}</li>
   </ul>

@@ -8,6 +8,7 @@ import { ListItem } from './list-item.model';
 })
 export class ListComponent {
   @Input() list!: ListItem;
+  @Input() sectionTitle!: string;
 
   constructor() {}
 }
