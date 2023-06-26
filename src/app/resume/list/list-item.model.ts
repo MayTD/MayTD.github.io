@@ -1,5 +1,5 @@
 export interface ListItem {
-  header: string;
+  header?: string;
   subheader?: string;
   items?: string[];
 }

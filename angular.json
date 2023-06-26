@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "MayTD.github.io"
+  "defaultProject": "MayTD.github.io",
+  "cli": {
+    "analytics": false
+  }
 }
